@@ -10,7 +10,7 @@ class EncodingPlugin(sublime_plugin.EventListener):
         self.update_encoding(view)
     def on_post_save_async(self, view):
     	self.update_encoding(view)
-    def on_activated_async(self, view)
+    def on_activated_async(self, view):
         self.update_encoding(view)
 
     def update_encoding(self, view):
